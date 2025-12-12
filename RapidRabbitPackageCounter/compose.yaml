@@ -1,0 +1,6 @@
+﻿services:
+  rapidrabbitpackagecounter:
+    image: rapidrabbitpackagecounter
+    build:
+      context: .
+      dockerfile: RapidRabbitPackageCounter/Dockerfile
