@@ -1,4 +1,4 @@
-namespace RapidRabbitPackageCounter;
+namespace RapidRabbitPancakeCounter;
 
 public class WeatherForecast
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace RapidRabbitPackageCounter.Controllers;
+namespace RapidRabbitPancakeCounter.Controllers;
 
 [ApiController]
 [Route("[controller]")]

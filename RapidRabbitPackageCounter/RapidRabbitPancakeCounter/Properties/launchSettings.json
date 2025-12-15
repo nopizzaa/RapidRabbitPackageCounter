@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "RapidRabbitPackageCounter": {
+    "RapidRabbitPancakeCounter": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7065;http://localhost:5240",

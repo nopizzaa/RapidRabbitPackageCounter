@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidRabbitPackageCounter", "RapidRabbitPackageCounter\RapidRabbitPackageCounter.csproj", "{DF86CD6E-4E05-43FB-A0A5-03C0B1B4824E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidRabbitPancakeCounter", "RapidRabbitPancakeCounter\RapidRabbitPancakeCounter.csproj", "{DF86CD6E-4E05-43FB-A0A5-03C0B1B4824E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94D8EC11-5DD4-4C87-95DC-FC21076E605B}"
 	ProjectSection(SolutionItems) = preProject
