@@ -8,9 +8,9 @@
     "start:windows": "ng serve --port 44475 --ssl --ssl-cert \"%APPDATA%\\ASP.NET\\https\\%npm_package_name%.pem\" --ssl-key \"%APPDATA%\\ASP.NET\\https\\%npm_package_name%.key\"",
     "start:default": "ng serve --port 44475 --ssl --ssl-cert \"$HOME/.aspnet/https/${npm_package_name}.pem\" --ssl-key \"$HOME/.aspnet/https/${npm_package_name}.key\"",
     "build": "ng build",
-    "build:ssr": "ng run RapidRabbitPackageCounter:server:dev",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "serve:ssr:RapidRabbitPackageCounter": "node dist/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +24,7 @@
     "@angular/platform-server": "^21.0.5",
     "@angular/router": "^21.0.5",
     "bootstrap": "^5.2.3",
+    "express": "^5.1.0",
     "jquery": "^3.6.4",
     "popper.js": "^1.16.0",
     "run-script-os": "^1.1.6",
@@ -32,9 +33,10 @@
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^21.0.3",
+    "@angular/build": "^21.0.3",
     "@angular/cli": "^21.0.3",
     "@angular/compiler-cli": "^21.0.5",
+    "@types/express": "^5.0.1",
     "@types/jasmine": "~4.3.1",
     "@types/jasminewd2": "~2.0.10",
     "@types/node": "^18.16.3",
