@@ -1,0 +1,6 @@
+﻿services:
+  rapidrabbitpancakecounter.api:
+    image: rapidrabbitpancakecounter.api
+    build:
+      context: .
+      dockerfile: RapidRabbitPancakeCounter.Api/Dockerfile

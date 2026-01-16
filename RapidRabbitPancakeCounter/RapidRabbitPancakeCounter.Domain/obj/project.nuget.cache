@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6JVEjp6nr9k=",
+  "success": true,
+  "projectFilePath": "/Users/nopizza/RiderProjects/RapidRabbitPackageCounter/RapidRabbitPancakeCounter/RapidRabbitPancakeCounter.Domain/RapidRabbitPancakeCounter.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/nopizza/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.11/microsoft.entityframeworkcore.abstractions.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
